@@ -13,7 +13,9 @@ const Card = ({ width, height }: { width: number; height: number }) => {
   };
   return (
     <>
-      <div style={cardStyle}>카드 내용</div>
+      <div style={cardStyle} className="cursor-pointer">
+        카드 내용
+      </div>
     </>
   );
 };
