@@ -1,8 +1,12 @@
+import { MainLayout } from "../component/MainLayout/MainLayout";
+
 const Page = () => {
   return (
-    <div className="text-[18px]">
-      <p>test</p>
-    </div>
+    <>
+      <MainLayout>
+        <p className="text-[30px] font-[700] italic tracking-[-2px]">shape</p>
+      </MainLayout>
+    </>
   );
 };
 

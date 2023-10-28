@@ -1,8 +1,9 @@
 import { AppProps } from "next/app";
 import React from "react";
 import { RecoilRoot } from "recoil";
+import "@/style/global.css";
 
-export const _app = ({ Component, pageProps }: AppProps) => {
+const _app = ({ Component, pageProps: { session, pageProps } }: AppProps) => {
   return (
     <>
       <RecoilRoot>
@@ -11,3 +12,5 @@ export const _app = ({ Component, pageProps }: AppProps) => {
     </>
   );
 };
+
+export default _app;
