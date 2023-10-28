@@ -1,10 +1,14 @@
+import { Header } from "@/component/Header/Header";
 import { MainLayout } from "../component/MainLayout/MainLayout";
+import { Title } from "@/component/ContentSection/Title";
 
 const Page = () => {
   return (
     <>
       <MainLayout>
-        <p className="text-[30px] font-[700] italic tracking-[-2px]">shape</p>
+        <Header />
+        <div className="mb-[100px]" />
+        <Title title={"action"} url={"/action"} />
       </MainLayout>
     </>
   );
