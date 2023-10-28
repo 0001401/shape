@@ -1,6 +1,6 @@
 import { Header } from "@/component/Header/Header";
 import { MainLayout } from "../component/MainLayout/MainLayout";
-import { Title } from "@/component/ContentSection/Title";
+import ContentSection from "@/component/ContentSection/ContentSection";
 
 const Page = () => {
   return (
@@ -8,7 +8,7 @@ const Page = () => {
       <MainLayout>
         <Header />
         <div className="mb-[100px]" />
-        <Title title={"action"} url={"/action"} />
+        <ContentSection />
       </MainLayout>
     </>
   );
