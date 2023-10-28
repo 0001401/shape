@@ -10,15 +10,11 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        sm: "390px",
-        md: "820px",
+        sm: "360px",
+        md: "700px",
         lg: "1024px",
         xl: "1280px",
         "2xl": "1920px",
-        desktop: "1280px",
-        laptop: "1024px",
-        tablet: "960px",
-        mobile: "640px",
       },
       borderRadius: {
         2: "2px",
