@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useRecoilState } from "recoil";
 import { state as modal } from "../../recoil/modal";
 import LoginPage from "./Login/LoginPage";
+import SignupPage from "./Login/SignupPage";
 
 export const LoginButton = () => {
   const [modalOpen, setModalOpen] = useRecoilState(modal);
@@ -14,7 +15,8 @@ export const LoginButton = () => {
             onClick={() => setModalOpen(!modal)}
             className="fixed top-0 left-0 w-full h-full bg-[#000] opacity-40"
           />
-          <LoginPage />
+          {/* <LoginPage /> */}
+          <SignupPage />
         </div>
       )}
       <button
