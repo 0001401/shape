@@ -23,7 +23,7 @@ const LoginPage = () => {
         <p className="text-[22px] font-[700] tracking-[-0.3px] leading-[130%] italic">
           shape
         </p>
-        <Cancel width={30} height={30} />
+        <Cancel width={30} height={30} className="cursor-pointer" />
       </div>
       <div className="flex flex-col items-center justify-center">
         <div className="relative ">

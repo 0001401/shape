@@ -8,3 +8,11 @@
 * {
   font-family: Pretendard, sans-serif !important;
 }
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
