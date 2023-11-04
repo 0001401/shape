@@ -12,6 +12,7 @@ const SignupPage = () => {
         <Cancel width={30} height={30} />
       </div>
       <div className="flex flex-col items-center justify-center">
+        <div className="w-[150px] h-[150px] bg-[#ddd] rounded-[8px]"></div>
         <div className="relative">
           <label
             className="block mb-1 mt-[70px] tracking-[-0.15px] text-[13px] font-[400]"
