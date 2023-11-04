@@ -1,4 +1,5 @@
 import React from "react";
+import { LoginButton } from "./LoginButton";
 
 export const Header = () => {
   return (
@@ -7,7 +8,7 @@ export const Header = () => {
         shape
       </p>
       <div className="flex justify-center items-center">
-        <div className="w-[50px] h-[50px] rounded-[99px] bg-[#E9E9EC] " />
+        <LoginButton />
         <div className="sm:w-[100px] md:w-[150px] lg:w-[150px] h-[50px] rounded-[99px] bg-[#E9E9EC] ml-[20px] flex items-center">
           <p className="text-center mx-auto">서울 | 23도</p>
         </div>
