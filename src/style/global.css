@@ -1,5 +1,18 @@
 @import url("//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+@import url(./fonts.scss/fonts.css);
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: Pretendard, sans-serif !important;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
